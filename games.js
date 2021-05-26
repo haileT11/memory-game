@@ -4,47 +4,47 @@ document.addEventListener('DOMContentLoaded',() => {
         const cardArray = [
             {
                 name: 'fries',
-                img: 'images/fries.png'
+                img: 'img/fries.png'
             },
             {
                 name: 'fries',
-                img: 'images/fries.png'
+                img: 'img/fries.png'
             },
             {
                 name: 'cheeseburger',
-                img: 'images/cheeseburger.png'
+                img: 'img/burger.jpeg'
             },
             {
                 name: 'cheeseburger',
-                img: 'images/cheeseburger.png'
+                img: 'img/burger.jpeg'
             },
             {
                 name: 'hotdog',
-                img: 'images/hotdog.png'
+                img: 'img/hotdog.png'
             },
             {
                 name: 'hotdog',
-                img: 'images/hotdog.png'
+                img: 'img/hotdog.png'
             },
             {
                 name: 'ice-cream',
-                img: 'images/hotdog.png'
+                img: 'img/ice-cream.jpeg'
             },
             {
                 name: 'milkshake',
-                img: 'images/milkshake.png'
+                img: 'img/shake.jpeg'
             },
             {
                 name: 'milkshake',
-                img: 'images/milkshake.png'
+                img: 'img/shake.jpeg'
             },
             {
                 name: 'pizza',
-                img: 'images/pizza.png'
+                img: 'img/pizza.jpeg'
             },
             {
                 name: 'pizza',
-                img: 'images/pizza.png'
+                img: 'img/pizza.jpeg'
             },
 
         ]
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded',() => {
         function createBoard() {
             for (let i = 0; i < cardArray.length; i++) {
                 var card = document.createElement('img')
-                card.setAttribute('src', 'images/blank.png')
+                card.setAttribute('src', 'img/blank.png')
                 card.setAttribute('dat-id', i)
                 card.addEventListener('click', flipcard)
             }
